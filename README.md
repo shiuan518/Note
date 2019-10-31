@@ -23,3 +23,14 @@ console.log 偵錯
     console.log('123');
     }
 ```
+
+for迴圈
+
+```
+  for (i = 0; i < 10; i++) 
+    { 
+    console.log(i);
+    }
+    
+輸出後會在console裡面出現1~10
+```
