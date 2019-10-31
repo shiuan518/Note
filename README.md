@@ -34,3 +34,24 @@ for迴圈
     
 輸出後會在console裡面出現1~10
 ```
+
+Global Variable 全域變數與 Local Variable 區域變數
+
+```
+  var var1=0;
+
+  function plus()
+  {
+    var1= var1 + 1;
+
+
+    alert(var1);
+
+  }
+  
+  輸出後會在提示框出現1,2,3,4...
+  
+  在函式（function）內，透過 var 所宣告的變數才能算是 Local Variable 區域變數，
+  若沒有使用 var 關鍵字宣告，無論是在哪裡宣告的變數，都會屬於 Global Variable 全域變數的範疇。
+  
+```
