@@ -3,41 +3,52 @@
 提示框
 
 ```
+
   alert('123');
+  
 ```
 
 一開視窗就執行
 
 ```
+
   window.onload = function() 
     {
       // console.log("window loaded")
     };
+    
 ```
 
 console.log 偵錯
 
 ```
+
   function myfunction()
     {
     console.log('123');
     }
+    
 ```
 
 for迴圈
 
 ```
+
   for (i = 0; i < 10; i++) 
     { 
     console.log(i);
     }
     
 輸出後會在console裡面出現1~10
+
+
 ```
 
 Global Variable 全域變數與 Local Variable 區域變數
 
+
 ```
+
   var var1=0;
 
   function plus()
@@ -70,4 +81,28 @@ onChange Event可以用在像是 input text、textarea(多行的文字輸入欄�
 請隨意輸入幾個文字：<input type="text" id="Str" onchange="ShowStr(this.id)">
 
 當輸入完文字滑鼠移開文字欄位就會觸發onchange Event
+
+```
+
+if ， else if ， else 條件判斷式
+
+```
+
+  var Str = "B";
+  
+  if(Str == "A")
+  {
+    document.write("這是A");
+  }
+  else if(Str == "B")
+  {
+    document.write("這是B");
+  }
+  else
+  {
+     document.write("這是C");
+  }
+
+輸出為 這是B。
+
 ```
