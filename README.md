@@ -117,11 +117,48 @@ if ， else if ， else 條件判斷式
 
 再使兩個變數相乘
 
-for(i = 1 ; i < 10 ; i++)
-{
-  console.log(i*j);
-}
+  for(i = 1 ; i < 10 ; i++)
+  {
+    console.log(i*j);
+  }
 
+```
+
+js 獲取input value
+
+
+```
+
+   var name = document.getElementById("name").value;
+              alert(name);
+              
+```
+
+js 改變input的值
+
+```
+
+  <input type="text" id="txt" value="初始文字內容" size="30"/>
+  <input type="button" value="更改文字內容" name="btn" onclick="c1();" />
+
+  <script>
+  
+    var t=document.getElementById("txt");
+    t.value="修改的文字內容"
+    
+  </script>
+  
+```
+
+js 判斷 input 空值
+
+```
+
+if (document.getElementById('txt_1').value == '') {
+			alert('數值請勿為空');
+		
+		}
+    
 ```
 
 
