@@ -141,12 +141,12 @@ js 改變input的值
   <input type="text" id="txt" value="初始文字內容" size="30"/>
   <input type="button" value="更改文字內容" name="btn" onclick="c1();" />
 
-  <script>
+　<script>
   
     var t=document.getElementById("txt");
     t.value="修改的文字內容"
     
-  </script>
+　</script>
   
 ```
 
@@ -154,11 +154,23 @@ js 判斷 input 空值
 
 ```
 
-if (document.getElementById('txt_1').value == '') {
-			alert('數值請勿為空');
-		
-		}
+if (document.getElementById('txt_1').value == '') 
+{
+　alert('數值請勿為空');
+}
     
 ```
 
+js 判斷 1~100 為(2)的倍數
 
+```
+
+for (i=1;i<=100;i++)
+　{  
+　　if (i%2 == 0)
+　　{
+　　　console.log(i);
+　　}
+　}
+ 
+```
