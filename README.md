@@ -67,11 +67,11 @@ Global Variable 全域變數與 Local Variable 區域變數
   
 ```
 
-onchange Event
+onchange 事件
 
 ```
 
-onChange Event可以用在像是 input text、textarea(多行的文字輸入欄位)、select option 等 HTML Form 元素上，當元素內容改變時就觸發 onChange Event來執行你所準備好的 JavaScript 程式碼
+onChange 事件可以用在像是 input text、textarea(多行的文字輸入欄位)、select option 等 HTML Form 元素上，當元素內容改變時就觸發 onChange Event來執行你所準備好的 JavaScript 程式碼
 
   function ShowStr(x){
      var Str=document.getElementById(x).value;
@@ -173,4 +173,34 @@ for (i=1;i<=100;i++)
 　　}
 　}
  
+```
+
+onkeyup 事件
+
+```
+
+  <input type="text" onkeyup="myFunction()">
+  onkeyup 事件會在鍵盤被鬆開時發生。
+
+```
+
+js 判斷輸入是否為數字
+
+```
+
+　isNaN(numValue)
+ 
+  EXP: if (isNaN(i) == false && isNaN(j) == false && i != ""  && j != "") //判斷是否為數字//判斷是否為空值*/
+
+ 
+```
+
+parseInt() 函数
+
+
+```
+
+parseInt() 函数可解析一个字符串，并返回一个整数。
+
+
 ```
