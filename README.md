@@ -66,6 +66,10 @@ Global Variable 全域變數與 Local Variable 區域變數
   若沒有使用 var 關鍵字宣告，無論是在哪裡宣告的變數，都會屬於 Global Variable 全域變數的範疇。
   
 ```
+點擊觸發
+```
+<input type="button" onclick="plus()" value="點我～">
+```
 
 onchange 事件
 
